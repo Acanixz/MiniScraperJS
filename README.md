@@ -3,7 +3,7 @@
 
 ### SETUP INSTRUCTIONS 
     Running locally:
-    1 - Create MiniScraperConfig.json
+    1 - Create MiniScraperConfig.json inside the data folder
     Paste the code below there and ajust the settings:
 
     {
