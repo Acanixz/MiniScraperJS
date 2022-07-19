@@ -9,7 +9,7 @@ LICENSE file in the root directory of this source tree.
 const puppeteer = require('puppeteer')
 const fs = require('fs/promises')
 
-let timeOffset = process.env.SCPR_timeOffset; // Don't forget to set env variables if hosted on server!
+let timeOffset = parseInt(process.env.SCPR_timeOffset) // Don't forget to set env variables if hosted on server!
 let URL = undefined
 let mutationTarget = undefined
 let extractionTarget = undefined
@@ -53,7 +53,7 @@ async function GetRecentElement(page){
             if (err) return console.log(err);
         });
 
-        console.log("[MiniSCPR] Extracted: " + extractedValue + "at" + GetCurrentTime(timeOffset))
+        console.log("[MiniSCPR] Extracted: " + extractedValue + " at " + GetCurrentTime(timeOffset))
     }
 }
 
