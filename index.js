@@ -53,7 +53,7 @@ async function GetRecentElement(page){
             if (err) return console.log(err);
         });
 
-        console.log("[MiniSCPR] Extracted: " + extractedValue)
+        console.log("[MiniSCPR] Extracted: " + extractedValue + "at" + GetCurrentTime(timeOffset))
     }
 }
 
