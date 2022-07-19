@@ -13,7 +13,9 @@
     "extractionTarget": "",
     "fileName": "./data/lastExtraction.json"
     }
-
+    
+    2 - Install node.js if you haven't yet and to run just use node index.js on any program you like (Visual Studio Code)
+    
     Running on a server (Using Heroku as a base for this):
     
     1 - Create the following environment variables in your project's settings:
