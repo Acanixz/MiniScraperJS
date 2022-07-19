@@ -1,0 +1,14 @@
+{
+  "name": "miniscraperjs",
+  "version": "1.0.0",
+  "description": "A very simple scraper for your basic extraction necessities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Acanixz",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.4.0"
+  }
+}
