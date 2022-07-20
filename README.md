@@ -14,7 +14,13 @@
     "fileName": "./data/lastExtraction.json"
     }
     
-    2 - Install node.js if you haven't yet and to run just use node index.js on any program you like (Visual Studio Code)
+    2 - Install node.js if you haven't yet
+    
+    3 - Install puppeteer using a terminal at the project's folder:
+    npm i puppeteer
+    
+    To run the program just type on a terminal:
+    node index.js 
     
     Running on a server (Using Heroku as a base for this):
     
